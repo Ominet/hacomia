@@ -1,2 +1,14 @@
-/node_module
+# Ignorer le dossier des dépendances de Node.js
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+
+# Environnement (secrets locaux)
 .env
+.env.*
+
+# Sortie de build / compilation
+/dist
+/build
